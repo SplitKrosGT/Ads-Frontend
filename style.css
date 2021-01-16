@@ -1,0 +1,25 @@
+.Ads__header {
+    width: 100%;
+    padding: 6px;
+    font-weight: 700;
+    font-size: 30px;    
+}
+.Header {
+    display: inline-block;
+}
+.Header__button {
+    float: right;
+    display: inline-block;
+    background-color: black;
+    color: blanchedalmond;
+    border-radius: 12px;
+    block-size: 42px;
+    
+}
+.Ads__content {}
+.Ads__box {
+    display: inline-block;
+}
+.Box__info {}
+.Box__name {}
+.Box__phone {}
