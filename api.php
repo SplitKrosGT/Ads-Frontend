@@ -9,7 +9,11 @@ if (isset($_GET['add'])) {
 
 else if (isset($_GET['all'])) {
 
-    include_once "api_all.php";
+    $query = $pdo -> query("SELECT * FROM ads");
+    $query = $query -> fetchALL(PDO::FETCH_ASSOC);
+    header("Content-type: application/json; charset=utf-8");
+
+    echo json_encode($query);
 }
 
 
